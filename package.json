@@ -1,0 +1,32 @@
+{
+  "name": "chinese-poetry",
+  "version": "1.0.0",
+  "description": "for web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lorenzohee/chinese-poetry.git"
+  },
+  "keywords": [
+    "poetry",
+    "api",
+    "free",
+    "唐诗",
+    "宋词",
+    "元曲",
+    "国学"
+  ],
+  "author": "Lorenzo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lorenzohee/chinese-poetry/issues"
+  },
+  "homepage": "https://github.com/lorenzohee/chinese-poetry#readme",
+  "dependencies": {
+    "express": "4.18.2"
+  }
+}
