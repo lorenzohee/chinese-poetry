@@ -13,12 +13,10 @@ app.use("/api", async (req, res) => {
     );
     const data = readFileSync(filePath);
     let jsonData = JSON.parse(data);
-    console.log(title);
     if (title && title !== "") {
       jsonData = jsonData.filter((item) => {
         return item.title.includes(title);
       });
-      console.log(jsonData.length);
     }
     return res.json({ status: 200, data: jsonData });
   }
